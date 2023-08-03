@@ -1,0 +1,91 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "rest_api_reference",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main_common.dart"
+    },
+    {
+      "name": "rest_api_reference (profile mode)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile",
+      "program": "lib/main_common.dart"
+    },
+    {
+      "name": "rest_api_reference (release mode)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release",
+      "program": "lib/main_common.dart"
+    },
+    {
+      "name": "rest_api_reference (simpson viewer debug)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "debug",
+      "program": "lib/main_common.dart",
+      "args": [
+        "--flavor",
+        "simpsonsviewer",
+        "--target",
+        "lib/main_simpsonviewer.dart"
+      ]
+    },
+    {
+      "name": "rest_api_reference (simpson viewer profile)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile",
+      "program": "lib/main_common.dart",
+      "args": [
+        "--flavor",
+        "simpsonsviewer",
+        "--target",
+        "lib/main_simpsonviewer.dart"
+      ]
+    },
+    {
+      "name": "rest_api_reference (simpson viewer release)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release",
+      "program": "lib/main_common.dart",
+      "args": [
+        "--flavor",
+        "simpsonsviewer",
+        "--target",
+        "lib/main_simpsonviewer.dart"
+      ]
+    },
+    {
+      "name": "rest_api_reference (wire viewer debug)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "debug",
+      "program": "lib/main_common.dart",
+      "args": ["--flavor", "wireviewer", "--target", "lib/main_wireviewer.dart"]
+    },
+    {
+      "name": "rest_api_reference (wire viewer profile)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile",
+      "program": "lib/main_common.dart",
+      "args": ["--flavor", "wireviewer", "--target", "lib/main_wireviewer.dart"]
+    },
+    {
+      "name": "rest_api_reference (wire viewer release)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release",
+      "program": "lib/main_common.dart",
+      "args": ["--flavor", "wireviewer", "--target", "lib/main_wireviewer.dart"]
+    }
+  ]
+}
