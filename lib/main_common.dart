@@ -7,7 +7,6 @@ import 'pages/detail_of_person_page.dart';
 import 'pages/list_of_people_page.dart';
 import 'providers/data_provider.dart';
 import 'providers/flavor_provider.dart';
-import 'providers/screen_provider.dart';
 
 void mainCommon(FlavorsConfig flavorConfig) {
   WidgetsFlutterBinding.ensureInitialized();
@@ -23,8 +22,7 @@ void mainCommon(FlavorsConfig flavorConfig) {
     MultiProvider(
       providers: [
         ChangeNotifierProvider(create: (ctx) => DataProvider()),
-        ChangeNotifierProvider(create: (ctx) => ScreenProvider()),
-        ChangeNotifierProvider(create: (ctx) => FlavorProvider())
+        ChangeNotifierProvider(create: (ctx) => FlavorProvider()),
       ],
       child: MainApp(flavorsConfig: flavorConfig),
     ),

@@ -4,7 +4,7 @@ import '../flavors_config.dart';
 import '../models/CharacterModel.dart';
 import '../providers/data_provider.dart';
 
-reachForData({required DataProvider dp, required FlavorsConfig fc}) async {
+Future<void> reachForData({required DataProvider dp, required FlavorsConfig fc}) async {
   // make api call here to server -
   // split data based on result
   //below - change the url to call specific url based on application ID
